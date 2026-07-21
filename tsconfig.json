@@ -8,9 +8,9 @@
     "allowArbitraryExtensions": true,
     "skipLibCheck": true,
 
-    "baseUrl": ".",
+    /* Mapeamento de Alias sem a opcao depreciada baseUrl */
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"]
     },
 
     /* Bundler mode */
